@@ -6,7 +6,7 @@ const data = {
       category: 'Bebidas',
       image: '/images/33-334569_soda-png.png',
       price: 2.19,
-      countInStock: 10,
+      countInStock: 0,
       brand: 'Crush',
       rating: 4.8,
       numReviews: 21,
