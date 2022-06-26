@@ -7,7 +7,7 @@ const data = {
       category: 'Bebidas',
       image: '/images/33-334569_soda-png.png',
       price: 2.19,
-      countInStock: 0,
+      countInStock: 2,
       brand: 'Crush',
       rating: 4.8,
       numReviews: 21,
@@ -30,7 +30,7 @@ const data = {
     },
     {
       _id: '3',
-      name: 'Pão de Forma Tradicional Gardenia 600 g',
+      name: 'Pão de Forma Gardenia 600 g',
       slug: 'pao-de-forma-gardenia-600g',
       category: 'Padaria',
       image: '/images/bread.png',
