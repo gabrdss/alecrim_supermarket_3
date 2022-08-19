@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Crush Laranja (Lata) 220 mL',
       slug: 'crush-laranja-lata-220ml',
       category: 'Bebidas',
@@ -15,7 +15,7 @@ const data = {
         'Com sabor irresistível e único, o Refrigerante Crush Laranja faz muito sucesso no mercado. Produzido com água gaseificada, açúcar e suco de laranja é uma excelente opção para matar a sede! Compre Refrigerante Crush Laranja Garrafa e experimente esse sabor inconfundível. Lote: 5632. Validade: 18/12/2022.',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Crush Laranja (Pet) 600 mL',
       slug: 'crush-laranja-pet-600ml',
       category: 'Bebidas',
@@ -29,7 +29,7 @@ const data = {
         'Com sabor irresistível e único, o Refrigerante Crush Laranja faz muito sucesso no mercado. Produzido com água gaseificada, açúcar e suco de laranja é uma excelente opção para matar a sede! Compre Refrigerante Crush Laranja Garrafa e experimente esse sabor inconfundível. Lote: 5632. Validade: 18/12/2022.',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Pão de Forma Gardenia 600 g',
       slug: 'pao-de-forma-gardenia-600g',
       category: 'Padaria',
@@ -43,7 +43,7 @@ const data = {
         'Versátil, prático e para qualquer momento, trazendo a energia necessária para o seu dia. Perfeito para sanduíches, torradas, receitas para o café da manhã, café da tarde, almoço e jantar. Lote: 1456. Validade: 14/09/2022.',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'Iogurte Grego Yoplait 100 g',
       slug: 'iogurte-grego-yoplait-100g',
       category: 'Laticínios',
