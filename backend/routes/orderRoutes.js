@@ -23,4 +23,17 @@ orderRouter.post(
     res.status(201).send({ message: 'Novo Pedido Criado', order });
   })
 );
+orderRouter.get(
+  '/:id',
+  isAuth,
+  expressAsyncHandler(async (req, res) => {
+    const order = await Order.findById(req.params.id);
+    if (order) {
+      res.send(order);
+    } else {
+      res.status(404).send({ message: 'Pedido Não Encontrado' });
+    }
+  })
+);
+
 export default orderRouter;
