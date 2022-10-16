@@ -104,11 +104,7 @@ export default function OrderListScreen() {
                       order.deliveredAt.substring(0, 4)
                     : 'Não'}
                 </td>
-                <td>
-                  {order.isDelivered
-                    ? order.deliveredAt.substring(0, 10)
-                    : 'Não'}
-                </td>
+
                 <td>
                   <Button
                     type="button"
