@@ -38,7 +38,7 @@ function Product(props) {
           <Card.Title>{product.name}</Card.Title>
         </Link>
         <Rating rating={product.rating} numReviews={product.numReviews} />
-        <Card.Text>R${product.price}</Card.Text>
+        <Card.Text>R${product.price.toFixed(2)}</Card.Text>
         {product.countInStock === 0 ? (
           <Button variant="light" disabled>
             Esgotado
