@@ -142,4 +142,19 @@ orderRouter.put(
   })
 );
 
+orderRouter.delete(
+  '/:id',
+  isAuth,
+  isAdmin,
+  expressAsyncHandler(async (req, res) => {
+    const order = await Order.findById(req.params.id);
+    if (order) {
+      await order.remove();
+      res.send({ message: 'Pedido Excluído' });
+    } else {
+      res.status(404).send({ message: 'Pedido Não Encontrado' });
+    }
+  })
+);
+
 export default orderRouter;
